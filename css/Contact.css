@@ -1,0 +1,130 @@
+/* Outter Box and its components */
+.outter_frame { width: 1205px;
+                height: 780px;
+              /*border: solid 1px black;*/
+                margin: auto;
+                }
+                
+.list {list-style: none;}
+
+.header_image { border-radius: 35px;
+                margin-top: 3px;
+                margin-left: 4px;
+                }
+                
+.header_btns { width: auto;
+               height: 70px;
+               /*border: solid 1px black;*/
+               align-content: center;
+               background-color: #FFbf75;
+               }
+                
+
+.btn1 { margin-left: 60px;
+        margin-top: 1px;
+        font-size: 20px;
+        padding-left: 10px;
+        padding-top: 3px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        border-radius: 40px;
+        background-color: #FFbf75;
+        }
+
+.btn2 { margin-left: 420px;
+        margin-top: 1px;
+        font-size: 20px;
+        padding-left: 10px;
+        padding-top: 3px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        border-radius: 40px;
+        background-color: #FFbf75;
+        }
+
+/* Box for Map*/
+.Map_box{ width: 400px;
+          height: 610px;
+          /*border: solid 1px; color:rgb(3, 18, 32);*/
+          border-radius: 5%;
+          margin-left: 20px;
+          margin-top: 45px;          
+          float: left;
+          
+  }
+
+  /* Contact Box and the title */
+.Contact_box {width: 745px;
+              height: 610px;
+              background-color: lightgreen;
+              border: solid 1px; color:rgb(11, 12, 11);
+              border-radius: 6px;
+              float: left;
+              margin-left: 30px;
+              margin-top: 40px;
+            }
+
+.Heading_Text_1 { color: black;          
+                  background-color: #179ff5;
+                  border-radius: 6px;
+                  margin-top: 0
+                }
+
+/* Detail Box and its components*/
+.detailbox {  display: flex;
+              padding-top: 20px;
+              padding-left:20px;
+              width: 50%;
+              max-width: 330px;
+              background-color: #e0ec9c;
+              /*overflow: hidden;*/
+              border-radius: 10px;
+              flex-wrap: wrap;
+              margin-left: 30px;
+              margin-top: 20px;
+              height: 450px;
+              float: left;
+              }
+
+.detailbox label { display: block;
+                   margin-bottom: 2px;
+                  }
+
+.detailbox label { margin-right: 10px; }
+
+.detailbox input, .detailbox textarea { width: 300px;
+                                        padding: 8px;
+                                        margin-bottom: 16px;
+                                        border-radius: 15px;
+                                        background-color: #73cdfa;
+                                        border: none;
+                                }
+
+.detailbox textarea { resize: vertical;}
+
+.form-button {  background: none;                
+                border: transparent;
+                color: #ea1d6f;
+                font-size: 16px;
+                cursor: pointer;
+                font-weight: bolder;
+              }
+              
+.detailbox_checkbox { margin-left: -150px;
+                      margin-top: 10px;
+                      padding-left: 10px;
+                      padding-top: 5px;  }
+
+/* Contact Info Box with details */
+.contact-info { width: 320px;
+                height: 200px;
+                margin-left: 20px;
+                margin-top: 120px;
+                border-radius: 35px;
+                float: left;
+                text-align: center;
+                padding: 50px 0;
+                background-color: #eef3c9;
+              }
+
+.contact-info h2 { margin-bottom: 20px; }
